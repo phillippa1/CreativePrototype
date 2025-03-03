@@ -1,4 +1,6 @@
+// src/pages/Home.jsx
 import * as React from "react";
+import Motion from "../Motion"; // Import the Motion component
 
 export default function Home() {
   const hello = "Hello React!";
@@ -16,6 +18,7 @@ export default function Home() {
         </a>
         .
       </p>
+      <Motion /> {/* Add the Motion component here */}
     </>
   );
 }
